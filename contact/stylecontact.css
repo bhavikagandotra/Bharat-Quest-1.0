@@ -15,8 +15,8 @@
     justify-content: center;
     align-items: center ;
     flex-direction: column;
-    background: url(bg1.jpg);
-    background-size: cover;
+    background: url(Beige\ Illustrative\ Museum\ of\ History\ Project\ Cover\ A4\ Document.png);
+    background-size:cover;
     width: 100%;
 }
 
@@ -69,13 +69,14 @@
 .container .contactInfo .box .text {
     display: flex;
     margin-left: 20px;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
     flex-direction:column;
     font-weight: 300;
 }
 
 .container .contactInfo .box .text h3{
+    font-size: 25px;
     font-weight: 700;
     color: black;
 }
@@ -88,12 +89,13 @@
 .contactForm {
     width: 40%;
     padding: 40px;
-    background: #fff;
+    background: rgb(62, 40, 2);
+    opacity: 0.3;
 }
 
 .contactForm h2 {
     font-size: 30px;
-    color: #333;
+    color: white;
     font-weight: 600;
 }
 
@@ -114,7 +116,6 @@
     outline: none;
     resize: none;
     transition: 0.5s;
-    pointer-events: none;
 }
 
 .contactForm .inputBox span {
@@ -125,7 +126,6 @@
     padding: 5px 0;
     font-size: 16px;
     margin: 10px 0;
-    pointer-events: none;
     transition: 0.5s;
     color: #666;
 }
@@ -141,13 +141,15 @@
 
 .contactForm .inputBox input[type="submit"] {
     width: 10%;
-    background: #00bcd4;
-    color: #fff;
+    background: beige;
+    color: black;
     border-radius: none;
     cursor: pointer;
     padding: 10px;
     font-size: 18px;
+    opacity: 1;
 }
+
 
 @media (max-widht: 991px) {
     .Contact {
