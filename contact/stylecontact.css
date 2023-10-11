@@ -134,7 +134,7 @@
 .contactForm .inputBox input:valid ~ span,
 .contactForm .inputBox textarea:focus ~ span,
 .contactForm .inputBox textarea:valid ~ span  {
-    color: rgb(141, 224, 239);
+    color:white;
     font-size: 12px;
     transform: translateY(-20px);
 }
@@ -150,6 +150,10 @@
     opacity: 1;
 }
 
+.contactForm .inputBox input[type="submit"]:hover {
+    background-color: #3c2802;
+    color: white;
+}
 
 @media (max-widht: 991px) {
     .Contact {
